@@ -2,7 +2,7 @@
   max-width: 1440px;
 }
 .header {
-  padding: 92px 50px 94px;
+  padding: 92px 50px;
   display: grid;
   grid-template-columns:repeat(3, 1fr) ;
   align-items:center;
@@ -81,24 +81,25 @@
 }
 
 .cover_title {
+  display:flex;
+  flex-direction: column;
   font-size: 100px;
   color: #FFF;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 135px;
+  row-gap: 24px;
 }
 
 .aligned-text {
 display:block;
 line-height:115%;
-padding: 10px 10px 10px 13px;
 }
 
 .aligned-text_center {
   display:block;
   text-align: center;
   line-height:100%;
-  padding: 10px;
 }
 
 .aligned-text_right {
@@ -125,7 +126,7 @@ padding: 10px 10px 10px 13px;
   justify-content: flex-end;
   align-items: center;
   color: #FFF;
-  gap:110px;
+  gap: 78px;
 }
 
 .cover_description-text {
@@ -303,7 +304,7 @@ text-align: center;
 }
 /*.footer__menu-list-item{
 }
-.footer__menu-link{}*/
+.footer__menu-link{}
 .footer_social-list {
   list-style: none;
   display:flex;
