@@ -2,12 +2,11 @@
   max-width: 1440px;
 }
 .header {
-  padding: 92px 50px;
+  padding: 92px 50px 94px;
   display: grid;
   grid-template-columns:repeat(3, 1fr) ;
   align-items:center;
   width: 100%;
-  background-color:blue;
 }
 .header_menu {
   max-width: 388px;
@@ -59,70 +58,8 @@
   text-underline-offset: 4px;
   transition: text-underline-offset 0.3s ease;
 }
-/*.header {
-  padding: 110px 50px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  background-color:blue;
-}
-.header_menu {
-  max-width: 388px;
-}
-
-.header_menu-list {
-  display: flex;
-  gap: 32px;
-  list-style: circle;
-  justify-content: space-between;
-  color: #000;
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.header_menu-item {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: normal;
-  text-wrap: nowrap;
-}
-
-.header_menu-item_no-bullit {
-  list-style:none;
-}
-
-.header_logo {
-  display:block;
-  justify-self: center;
-  width: 148px;
-  height: 105px;
-}
-
-.header_logo-image {
-  max-width: 100%;
-}
-
-.address {
-  align-self: center;
-  width: 240px;
-  line-height:1.35;
-  text-wrap:wrap;
-}
-.header_adress {
-  justify-self: end;
-}
-
-.address-link {
-  text-wrap: nowrap;
-}
-/*
 .cover {
   position: relative;
-  margin-top:50px;
   padding: 165px 50px 50px 50px;
   z-index:1;
   background-image: url(../images/cover.jpg);
@@ -152,7 +89,7 @@
 .aligned-text {
 display:block;
 line-height:115%;
-padding: 10px;
+padding: 10px 13px 10px 10px;
 }
 
 .aligned-text_center {
@@ -208,7 +145,7 @@ padding: 10px;
   text-align: center;
   cursor: pointer;
 }
-
+/*
 .lots {
   padding: 179px 50px 181px 50px;
 }
