@@ -51,8 +51,7 @@
   font-size: 18px;
   line-height:1.35;
   font-style: normal;
-  text-wrap:no-wrap;
-  white-space: nowrap;
+  text-wrap:wrap;
 }
 .header_adress {
   justify-self: end;
@@ -247,13 +246,13 @@ line-height: normal;
 }
 
 .about {
-  display:grid;
-  grid-template-columns: 430px 1fr;
-  grid-template-areas:
-  "logo column"
-  ;
-  gap: 25px;
-  margin: 0px 50px 180px; 
+ display:grid;
+ grid-template-columns: 430px 1fr;
+ grid-template-areas:
+ "logo column"
+ ;
+ gap: 25px;
+ margin: 0px 50px 180px; 
 }
 
 .about_logo {
