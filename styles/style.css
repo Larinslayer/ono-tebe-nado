@@ -51,7 +51,7 @@
   font-size: 18px;
   line-height:1.35;
   font-style: normal;
-  text-wrap:wrap;
+  text-wrap:no-wrap;
 }
 .header_adress {
   justify-self: end;
@@ -121,7 +121,7 @@ line-height:115%;
 }
 
 .cover_description {
-  margin-top:147px;
+  margin-top:135px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
