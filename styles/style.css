@@ -155,7 +155,7 @@
 }
 
 .lots_heading {
-  padding:0px 0px 40px 27px;
+  padding: 0px 0px 40px 27px;
   font-size: 40px;
   text-transform: uppercase;
 }
@@ -179,14 +179,14 @@
 }
 
 .card-link {
-  display: block; 
-  width: 100%; 
+  display: block;
+  width: 100%;
   height: 100%;
   text-decoration: none;
 }
 
 .card {
-  height:inherit;
+  height: inherit;
   z-index: 1;
   position: relative;
   display: flex;
@@ -321,7 +321,8 @@
   justify-self: end;
   gap: 48px;
 }
-.footer_social-list-item{
+
+.footer_social-list-item {
   display: block;
   height: 48px;
   width: 48px;
