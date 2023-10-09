@@ -261,11 +261,11 @@
 }
 
 .about_column {
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
   margin-top: 100px;
   grid-area: column;
+  display:flex;
+  flex-direction: column;
+  gap:0px 0px 25px;
 }
 
 .about-title {
@@ -280,10 +280,10 @@
 }
 
 .about_text {
-  display: lex;
   font-style: normal;
   font-size: 20px;
   font-weight: 400;
+  margin-bottom: 25px;
 }
 
 .footer {
@@ -310,9 +310,9 @@
   text-align: center;
 }
 
-.footer__menu-link {
-  text-underline-offset: 2px;
-  transition: text-underline-offset 0.3s ease;
+.footer_menu-link {
+  text-decoration: none;
+  border-bottom: 1px solid black;
 }
 
 .footer_social-list {
