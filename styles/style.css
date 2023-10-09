@@ -23,7 +23,7 @@
 }
 
 .header_menu-item_no-bullit {
-  border-bottom:none;
+  border-bottom: none;
 }
 .header_menu-link {
   border-bottom: 1px solid;
@@ -162,7 +162,6 @@
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   gap: 25px;
   margin-bottom: 30px;
 }
@@ -170,7 +169,7 @@
 .lots_card-list-item {
   flex: 1 1 430px;
   flex-grow: 1;
-  min-height:450px; 
+  min-height: 450px;
 }
 
 .card-link {
