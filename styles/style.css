@@ -63,13 +63,12 @@
 }
 
 .cover {
-  background-size: cover;
   position: relative;
   padding: 165px 50px 50px 50px;
   z-index: 1;
   background-color: #a7a7a7;
-  background-size: cover;
   background-image: url(../images/cover.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
