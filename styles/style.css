@@ -1,6 +1,3 @@
-.page {
-  max-width: 1440px;
-}
 .header {
   padding: 92px 50px 96px;
   display: grid;
@@ -17,7 +14,6 @@
   align-items: center;
   gap: 32px;
   list-style: circle;
-  text-wrap: nowrap;
 }
 
 .header_menu-item {
@@ -27,10 +23,11 @@
 }
 
 .header_menu-item_no-bullit {
-  list-style: none;
+  border-bottom:none;
 }
 .header_menu-link {
-  text-wrap: nowrap;
+  border-bottom: 1px solid;
+  text-decoration: none;
 }
 
 .header_logo {
@@ -173,15 +170,15 @@
 .lots_card-list-item {
   flex: 1 1 430px;
   flex-grow: 1;
+  min-height:450px; 
 }
 
 .card-link {
   text-decoration: none;
-  height: 450px;
 }
 
 .card {
-  height: inherit;
+  height: 100%;
   z-index: 1;
   position: relative;
   display: flex;
@@ -285,7 +282,8 @@
   font-weight: 400;
   margin-bottom: 25px;
 }
-.about_last {
+
+.about_text:last-child {
   margin-bottom: 0;
 }
 
