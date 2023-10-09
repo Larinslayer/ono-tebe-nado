@@ -234,7 +234,7 @@
 }
 
 .about {
-  margin: 0px 50px 155px;
+  margin: 0px 50px 180px;
   display: grid;
   grid-template-columns: 430px 1fr;
   grid-template-areas: "logo column";
