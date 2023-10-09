@@ -68,6 +68,7 @@
   padding: 165px 50px 50px 50px;
   z-index: 1;
   background-color: #a7a7a7;
+  background-size: cover;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -164,7 +165,7 @@
 .lots_card-list {
   list-style: none;
   display: flex;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   align-items: center;
   gap: 25px;
   margin-bottom: 30px;
@@ -263,9 +264,9 @@
 .about_column {
   margin-top: 100px;
   grid-area: column;
-  display:flex;
+  display: flex;
   flex-direction: column;
-  gap:0px 0px 25px;
+  gap: 0px 0px 25px;
 }
 
 .about-title {
